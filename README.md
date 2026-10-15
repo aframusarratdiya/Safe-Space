@@ -1,26 +1,20 @@
-Safe Space 🧠💚
+# Safe Space 🧠💚
 
 Safe Space is a Flask-based web application designed to provide a supportive, compassionate, and anonymous environment for individuals seeking mental health assistance. It features real-time support channels, licensed listener matching, peer group chats, journaling, habit tracking, and an AI-powered empathetic chatbot companion.
 
-✨ Key Features
+## ✨ Key Features
 
-Anonymous User Mode: Allows normal users to toggle anonymity on or off so they can seek support without revealing their personal identity in chats and groups.
+* **Anonymous User Mode**: Allows normal users to toggle anonymity on or off so they can seek support without revealing their personal identity in chats and groups.
+* **Peer Support Groups**: Create, join, and participate in community group chats focused on mutual wellness and recovery.
+* **Verified Listeners & Rating System**: Users can apply to become listeners, connect with approved listeners, and rate their support sessions (1–5 stars).
+* **Daily Mood Tracker & Streak Counter**: Log daily moods, track emotional trends over time, and build self-care streaks.
+* **Habit Tracker**: Build positive wellness habits and monitor weekly progress visually.
+* **Private Journaling**: A secure space for users to write down personal thoughts and reflections.
+* **Emergency Helplines**: Quick access to localized and national emergency mental health hotlines and support organizations.
+* **Dual Database Support**: Configured for local development using SQLite and production deployment using PostgreSQL (Render-ready).
 
-Peer Support Groups: Create, join, and participate in community group chats focused on mutual wellness and recovery.
+## 📁 Project Structure
 
-Verified Listeners & Rating System: Users can apply to become listeners, connect with approved listeners, and rate their support sessions (1–5 stars).
-
-Daily Mood Tracker & Streak Counter: Log daily moods, track emotional trends over time, and build self-care streaks.
-
-Habit Tracker: Build positive wellness habits and monitor weekly progress visually.
-
-Private Journaling: A secure space for users to write down personal thoughts and reflections.
-
-Emergency Helplines: Quick access to localized and national emergency mental health hotlines and support organizations.
-
-Dual Database Support: Configured for local development using SQLite and production deployment using PostgreSQL (Render-ready).
-
-📁 Project Structure
 ```text
 safe-space-app/
 ├── app.py                      # Main Flask application, database models, and AI logic
@@ -49,7 +43,6 @@ safe-space-app/
 │   └── apply_listener.html     # Application page to become a listener
 └── static/                     # Static assets (CSS, images)
     └── style.css               # Application stylesheet
-
 
 🛠️ Local Setup & Installation
 

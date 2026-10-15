@@ -21,7 +21,7 @@ Emergency Helplines: Quick access to localized and national emergency mental hea
 Dual Database Support: Configured for local development using SQLite and production deployment using PostgreSQL (Render-ready).
 
 📁 Project Structure
-
+```text
 safe-space-app/
 ├── app.py                      # Main Flask application, database models, and AI logic
 ├── make_admin.py               # Utility script to promote users to admin

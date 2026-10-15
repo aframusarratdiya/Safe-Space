@@ -42,7 +42,7 @@ safe-space-app/
 │   ├── admin_panel.html        # Admin management for listener applications
 │   └── apply_listener.html     # Application page to become a listener
 └── static/                     # Static assets (CSS, images)
-    └── style.css               # Application stylesheet
+    └── style.css               # Application stylesheet '''
 
 🛠️ Local Setup & Installation
 
